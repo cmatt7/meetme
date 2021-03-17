@@ -200,12 +200,6 @@ img {
   height: 100vh;
 }
 
-.content1 img {
-  background-image: url(html5.png);
-  width: 150px;
-  height: 150px;
-}
-
 .content2 {
   background-color: rgb(30,110,230);
   border: 1px solid rgb(30,110,230);
@@ -230,7 +224,7 @@ img {
 .img1, .img2, .img3, .img4 {
   position: relative;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 /* comeback btn */
