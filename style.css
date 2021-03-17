@@ -194,6 +194,7 @@ img {
 /* Knowledges */
 
 .content1 {
+  display: flex;
   background-color: rgb(210,105,30);
   border: 1px solid rgb(210,105,30);
   width: 100%;
@@ -201,6 +202,7 @@ img {
 }
 
 .content2 {
+  display: flex;
   background-color: rgb(30,110,230);
   border: 1px solid rgb(30,110,230);
   width: 100%;
@@ -208,6 +210,7 @@ img {
 }
 
 .content3 {
+  display: flex;
   background-color: rgb(218,165,32);
   border: 1px solid rgb(218,165,32);
   width: 100%;
@@ -215,6 +218,7 @@ img {
 }
 
 .content4 {
+  display: flex;
   background-color: rgb(139,0,139);
   border: 1px solid rgb(139,0,139);
   width: 100%;
