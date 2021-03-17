@@ -228,8 +228,8 @@ img {
 .img1, .img2, .img3, .img4 {
   position: relative;
   margin: 0 auto;
-  padding-left: 20px;
   margin-top: 20px;
+  justify-items: center;
 }
 
 /* comeback btn */
