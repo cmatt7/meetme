@@ -22,6 +22,27 @@ img {
   max-width: 100%;
 }
 
+/* Menu */
+
+.menubar {
+  background-color: #1C1C1C;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.menubar ul li {
+  display: inline-block;
+}
+
+.menubar ul li a {
+  display: block;
+  color: #fff;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
 /* Gradient background */
 
 #section-gradient {
