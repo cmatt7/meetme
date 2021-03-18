@@ -125,7 +125,7 @@ img {
   padding: 200px 6px;
   flex-wrap: wrap;
   max-width: 1920px;
-  margin: 80px auto;
+  margin: 180px auto;
   padding: 24px;
 }
 
@@ -138,7 +138,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 75px;
+  margin: 20px 65px;
   transition: 0.5s;
 }
 
