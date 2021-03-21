@@ -236,7 +236,7 @@ img {
   background-color: #0c0c0c;
   display: flex;
   width: 100%;
-  height: 105vh;
+  max-height: 125vh;
 }
 
 .img {
@@ -264,16 +264,14 @@ img {
     order: 1;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 550px;
-    height: 220px;
 }
 
 .object-1-1 {
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   order: 4;
-  width: 400px;
-  height: 400px;
+  max-width: 450px;
+  max-height: 450px;
 }
 
 .object-2 {
@@ -297,29 +295,13 @@ img {
 }
 
 @media (max-width: 800px) {
-  .object-2, .object-3 {
-    font-size: 20px;
+  .container1 {
+    height: 100vh;
   }
 
   .object-1-1 {
     max-width: 300px;
     max-height: 300px;
-  }
-}
-
-@media (max-width: 480px) {
-  .content1 {
-    height: 110vh;
-  }
-
-  .object-2, .object-3 {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 640px) {
-  .content1 {
-    height: 110vh;
   }
 
   .object-2, .object-3 {
