@@ -347,6 +347,11 @@ img {
     height: 100vh;
   }
 
+  .object-1 {
+    width: 250px;
+    height: 250px;
+  }
+
   .object-1-1 {
     max-width: 300px;
     max-height: 300px;
