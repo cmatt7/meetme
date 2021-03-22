@@ -348,8 +348,8 @@ img {
   }
 
   .object-1 {
-    width: 370px;
-    height: 200px;
+    max-width: 370px;
+    max-height: 200px;
   }
 
   .object-1-1 {
