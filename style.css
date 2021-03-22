@@ -68,7 +68,7 @@ img {
     ul {
       position: absolute;
       width: 100%;
-      height: 100vh;
+      height: 8vh;
       background:#0c0c0c;
       top: 80px;
       left: -100%;
@@ -78,7 +78,7 @@ img {
 
     nav ul li {
       display: block;
-      margin: 50px 0;
+      margin: 10px 0;
       line-height: 30px;
     }
 
