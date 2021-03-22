@@ -309,6 +309,8 @@ img {
     order: 1;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 600px;
+    height: 300px;
 }
 
 .object-1-1 {
