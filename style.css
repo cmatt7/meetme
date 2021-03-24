@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: consolas;
-  background-color: #E0EEE0;
+  background-color: #0c0c0c;
   width: 100%;
   height: 100%;
 }
@@ -170,7 +170,7 @@ img {
   padding: 200px 6px;
   flex-wrap: wrap;
   max-width: 1920px;
-  margin: 160px auto;
+  margin: 190px auto;
   padding: 24px;
 }
 
@@ -205,7 +205,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #ef4f4f, #ee9595, #ffcda3, #74c7b8);
+  background: linear-gradient(45deg, #f6f5f5, #d3e0ea, #1687a7, #276678);
 }
 
 .container .box:after {
@@ -215,18 +215,18 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #ef4f4f, #ee9595, #ffcda3, #74c7b8);
-  filter: blur(20px);
+  background: linear-gradient(45deg, #f6f5f5, #d3e0ea, #1687a7, #276678);
+  filter: blur(10px);
 }
 
 .container .box:nth-child(2)::before,
 .container .box:nth-child(2)::after {
-  background: linear-gradient(45deg, #26001b, #810034, #ff005c, #fff600);
+  background: linear-gradient(45deg, #f1f6f9, #14274e, #394867, #9ba4b4);
 }
 
 .container .box:nth-child(3)::before,
 .container .box:nth-child(3)::after {
-  background: linear-gradient(45deg, #8c0000, #bd2000, #fa1e0e, #ffbe0f);
+  background: linear-gradient(45deg, #08ffc8, #fff7f7, #dadada, #204969);
 }
 
 .container .box span {
