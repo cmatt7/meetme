@@ -369,10 +369,10 @@ img {
 
 #comeback {
   text-decoration: none;
-  color: #fff;
-  background-color: #FF4500;
-  border: 1px solid #FF4500;
-  padding: 20px;
+  color: black;
+  background-color: #BCD2EE;
+  border: 1px solid #BCD2EE;
+  padding: 15px;
   position: fixed;
   right: 10px;
   bottom: 10px;
@@ -437,7 +437,7 @@ footer {
   color: #fff;
   font-family: "Lato", Arial, sans-sans-serif;
   text-align: center;
-  line-height: 35px;;
+  line-height: 50px;;
 }
 
 @media (max-width: 800px) {
@@ -459,26 +459,26 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(contactbackground.jpg);
-  background-size: cover;
+  background-color: #0c0c0c;
 }
 
 .contact .contact-boxtext {
   max-width: 800px;
 }
 
-.contactForm {
+/* .contactForm {
   width: 100%;
   padding: 40px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
-}
+}  
 
 .contactForm h2 {
   font-size: 30px;
-  color: black;
+  color: white;
   font-weight: 500;
 }
+*/
 
 .contactForm .inputBox {
   position: relative;
@@ -497,7 +497,7 @@ footer {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   background: transparent;
   outline: none;
 }
@@ -510,7 +510,7 @@ footer {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #333;
+  color: whitesmoke;
 }
 
 .contactForm .inputBox input:valid ~ span,
@@ -523,13 +523,14 @@ footer {
 
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
-  background: #0c0c0c;
-  color: #fff;
+  background: white;
+  color: black;
   border: none;
   border-radius: 3.5px;
   cursor: pointer;
   padding: 10px;
   font-size: 16px;
+  font-weight: 650;
 }
 
 @media (max-width: 991px) {
