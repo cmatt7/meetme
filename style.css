@@ -403,22 +403,6 @@ footer {
     width: 100%;
 }
 
-.object-4 img {
-  width: 250px;
-  height: 250px;
-  background-image: linear-gradient(45deg,#111d5e, #c70039, #f37121, #c0e218);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  padding: 5px;
-  border-radius: 50vh;
-  flex-direction: column;
-  flex-wrap: wrap;
-  order: 1;
-  float: right;
-  margin-right: 30px;
-  margin-top: 70px;
-}
-
 .object-5 {
   flex-direction: column;
   flex-wrap: wrap;
@@ -466,24 +450,11 @@ footer {
   max-width: 800px;
 }
 
-/* .contactForm {
-  width: 100%;
-  padding: 40px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-}  
-
-.contactForm h2 {
-  font-size: 30px;
-  color: white;
-  font-weight: 500;
-}
-*/
-
 .contactForm .inputBox {
   position: relative;
   width: 100%;
   margin-top: 10px;
+  color: white;
 }
 
 .box {
@@ -500,6 +471,7 @@ footer {
   border-bottom: 2px solid white;
   background: transparent;
   outline: none;
+  color: white;
 }
 
 .contactForm .inputBox span {
