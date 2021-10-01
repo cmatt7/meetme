@@ -51,9 +51,8 @@ img {
 .checkbtn {
   font-size: 30px;
   color: #fff;
-  float: right;
   line-height: 80px;
-  margin-right: 40px;
+  margin-right: 0 auto;
   cursor: pointer;
   display: none;
 }
@@ -97,18 +96,20 @@ img {
 
 .textoint {
   text-align: center;
+  margin: 1.5% auto;
+  line-height: 48px;
 }
 
 #section-gradient {
-  width: 100%;
   height: 100vh;
   color: #fff;
   background: linear-gradient(45deg, #1b262c, #0f4c75, #3282b8, #bbe1fa);
   background-size: 400% 400%;
-  animation: change 10s ease-in-out infinite;
+  animation: change 5s ease-in-out infinite;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #section-gradient h1 {
@@ -136,7 +137,7 @@ img {
 
 /* Button */
 .btn {
-  padding: 12px 20px;
+  padding: 11px 18px;
   width: 180px;
   height: 60px;
   text-decoration: none;
@@ -145,10 +146,11 @@ img {
   font-weight: bold;
   color: #fff;
   border: 2px solid #fff;
-  border-radius: 1px;
+  border-radius: 3px;
   text-align: center;
   position: relative;
   margin: 0 auto;
+  transition: 1s ease;
 }
 
 .btn:hover {
@@ -158,6 +160,23 @@ img {
                 4px 4px #fff;
         -webkit-transform: translateX(-3px);
         transform: translateX(-3px);
+}
+
+@media (max-width: 858px) {
+  .textoint {
+    line-height: 28px;
+  }
+
+  #section-gradient h1 {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    min-width: 100px;
+    min-height: 40px;
+    margin: 10px;
+  }
 }
 
 /* Card boxes */
@@ -179,7 +198,6 @@ img {
   width: 320px;
   min-height: 400px;
   color: #fff;
-  background: #111;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -280,7 +298,6 @@ img {
 
 .content1 {
   margin-top: 330px;
-  background-color: #0c0c0c;
   display: flex;
   width: 100%;
   height: 115vh;
@@ -321,22 +338,24 @@ img {
   order: 4;
   max-width: 450px;
   max-height: 450px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .object-2 {
     flex-direction: column;
     order: 2;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
+    line-height: 100px;
 }
 
 .object-3 {
   flex-direction: column;
+  margin: 0 auto;
   order: 3;
-  padding: 10px 60px;
-  align-items: center;
-  font-size: 25px;
+  width: 70%;
+  text-align: justify;
+  font-size: 30px;
   line-height: 130%;
 }
 
@@ -384,14 +403,12 @@ img {
 footer {
    width: 100%;
    height: 100vh;
-   background-color:  #0c0c0c;
 }
 
 .flex-container2 {
     padding: 0;
     margin: 0;
     list-style: none;
-    border: 1px solid #0c0c0c;
     -ms-box-orient: horizontal;
     display: -webkit-box;
     display: -moz-box;
@@ -443,7 +460,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #0c0c0c;
 }
 
 .contact .contact-boxtext {
